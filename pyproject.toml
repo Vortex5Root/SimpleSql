@@ -1,0 +1,14 @@
+[tool.poetry]
+name = "simplesql"
+version = "0.1.0"
+description = "I'm glad to introduce my Git repository which includes a lightweight Python module for SQLite database management. With a simple implementation of just a few lines of code, this module allows you to manage your SQLite database effortlessly."
+authors = ["Vortex5Root"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.11"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
