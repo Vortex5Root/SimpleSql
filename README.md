@@ -9,7 +9,7 @@
 
 - To install you can use.
   ```bash
-    poetry install git+https://github.com/Vortex5Root/SimpleSql/
+    poetry install git+https://github.com/Vortex5Root/SimpleSql.git
   ```
 
 ## Usage
