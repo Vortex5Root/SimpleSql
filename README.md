@@ -7,7 +7,10 @@
 
 ## Installation
 
-- To use SimpleSQL, you must have Python 3.x installed on your system. SimpleSQL has no additional dependencies. To install it, simply download the `SimpleSQL.py` file and place it in your project's directory.
+- To install you can use.
+  ```bash
+    poetry install git+https://github.com/Vortex5Root/SimpleSql/
+  ```
 
 ## Usage
 
