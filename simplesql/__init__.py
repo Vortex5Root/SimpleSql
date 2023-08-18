@@ -115,7 +115,7 @@ class Table(object):
     # Method to generate a table with given variables
     def gen(self,variables):
         if self.block:
-            sqlcomd = "CREATE TABLE IF NOT EXISTS " + str(self.tb_name)+"( ell text,"+variables+")"
+            sqlcomd = f"CREATE TABLE IF NOT EXISTS {str(self.tb_name)} ( ell text,{variables})"
             self.database.exec(sqlcomd)
             conn = self.database.conn_
             conn.commit()
