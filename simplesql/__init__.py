@@ -151,6 +151,7 @@ class Table(object):
             #print(stats,info.fetchall())
             if stats:
                 for i in info.fetchall():
+                    print(i)
                     yield i
             return stats
 
