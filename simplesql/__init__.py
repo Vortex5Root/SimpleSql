@@ -146,6 +146,7 @@ class Table(object):
                 sqlcomd = "SELECT * FROM " + str(self.tb_name) + " WHERE " + str(code)
             else:
                 sqlcomd = "SELECT * FROM "+str(self.tb_name)+" WHERE "+str(code)+" = '"+str(value)+"'"
+            print(sqlcomd)
             stats,info = self.database.exec(sqlcomd)
             print(stats,info.fetchall())
             if stats:
