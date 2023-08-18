@@ -153,7 +153,7 @@ class Table(object):
             return stats
 
     # Method to update a table
-    def update(self,>,set):
+    def update(self,target,set):
         sqlcmd = f"UPDATE {self.tb_name} SET {set[0]} = '{set[1]}' WHERE {target[0]} = '{target[1]}'" # set = "column = value"
         self.database.exec(sqlcmd)
         return True
