@@ -116,7 +116,7 @@ class Table(object):
     def gen(self,variables):
         if self.block:
             sqlcomd = f"CREATE TABLE IF NOT EXISTS {str(self.tb_name)} ( ell text,{variables})"
-            self.database.exec(sqlcomd)
+            print(self.database.exec(sqlcomd))
             conn = self.database.conn_
             conn.commit()
 
